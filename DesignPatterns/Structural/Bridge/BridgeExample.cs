@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Structural.Bridge
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Structural.Bridge
 {
-    public class BridgeExample
+    public class BridgeExample : IPatternExample
     {
         public static void Execute()
         {

@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Structural.Proxy
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Structural.Proxy
 {
-    public class ProxyExample
+    public class ProxyExample : IPatternExample
     {
         public static void Execute()
         {

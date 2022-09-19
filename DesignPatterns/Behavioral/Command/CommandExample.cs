@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Command
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Command
 {
-    public class CommandExample
+    public class CommandExample : IPatternExample
     {
         public static void Execute()
         {

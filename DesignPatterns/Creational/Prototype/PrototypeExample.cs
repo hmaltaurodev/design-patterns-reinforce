@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Creational.Prototype
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Creational.Prototype
 {
-    public class PrototypeExample
+    public class PrototypeExample : IPatternExample
     {
         public static void Execute()
         {

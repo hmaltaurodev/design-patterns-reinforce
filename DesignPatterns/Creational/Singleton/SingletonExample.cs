@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Creational.Singleton
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Creational.Singleton
 {
-    public class SingletonExample
+    public class SingletonExample : IPatternExample
     {
         public static void Execute()
         {

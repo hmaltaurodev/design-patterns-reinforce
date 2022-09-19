@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Mediator
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Mediator
 {
-    public class MediatorExample
+    public class MediatorExample : IPatternExample
     {
         public static void Execute()
         {

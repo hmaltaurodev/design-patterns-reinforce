@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Interpreter
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Interpreter
 {
-    public class InterpreterExample
+    public class InterpreterExample : IPatternExample
     {
         public static void Execute()
         {

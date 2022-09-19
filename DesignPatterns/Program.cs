@@ -39,7 +39,7 @@ namespace DesignPatterns
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Design Patterns");
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("Remember to uncomment the pattern you want to run\r\n");
+            Console.WriteLine("Remember to uncomment the pattern you want to run");
 
             #region Behavioral Examples
             //ChainOfResponsibilityExample.Execute(); //TODO

@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.State
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.State
 {
-    public class StateExample
+    public class StateExample : IPatternExample
     {
         public static void Execute()
         {

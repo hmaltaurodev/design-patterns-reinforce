@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Creational.Builder
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Creational.Builder
 {
-    public class BuilderExample
+    public class BuilderExample : IPatternExample
     {
         public static void Execute()
         {

@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Memento
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Memento
 {
-    public class MementoExample
+    public class MementoExample : IPatternExample
     {
         public static void Execute()
         {

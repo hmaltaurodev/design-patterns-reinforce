@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Creational.AbstractFactory
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Creational.AbstractFactory
 {
-    public class AbstractFactoryExample
+    public class AbstractFactoryExample : IPatternExample
     {
         public static void Execute()
         {

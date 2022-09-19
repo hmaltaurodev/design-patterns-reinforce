@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Creational.Factory
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Creational.Factory
 {
-    public class FactoryExample
+    public class FactoryExample : IPatternExample
     {
         public static void Execute()
         {

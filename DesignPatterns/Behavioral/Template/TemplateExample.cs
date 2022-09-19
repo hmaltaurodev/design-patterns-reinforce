@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Template
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Template
 {
-    public class TemplateExample
+    public class TemplateExample : IPatternExample
     {
         public static void Execute()
         {

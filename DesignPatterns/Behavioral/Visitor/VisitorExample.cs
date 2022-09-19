@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.Visitor
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.Visitor
 {
-    public class VisitorExample
+    public class VisitorExample : IPatternExample
     {
         public static void Execute()
         {

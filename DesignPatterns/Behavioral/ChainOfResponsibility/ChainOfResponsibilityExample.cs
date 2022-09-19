@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.Behavioral.ChainOfResponsibility
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.Behavioral.ChainOfResponsibility
 {
-    public class ChainOfResponsibilityExample
+    public class ChainOfResponsibilityExample : IPatternExample
     {
         public static void Execute()
         {
