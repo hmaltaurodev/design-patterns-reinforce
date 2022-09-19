@@ -4,7 +4,7 @@ namespace DesignPatterns.DecoratorPattern.Models
 {
     public class Pizza : IPizza
     {
-        string IPizza.GetType()
+        public string GetPizzaType()
         {
             return "This is a standard pizza";
         }

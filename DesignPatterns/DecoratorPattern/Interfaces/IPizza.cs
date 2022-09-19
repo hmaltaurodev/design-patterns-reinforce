@@ -2,6 +2,6 @@
 {
     public interface IPizza
     {
-        public string GetType();
+        public string GetPizzaType();
     }
 }

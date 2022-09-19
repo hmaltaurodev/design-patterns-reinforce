@@ -8,9 +8,9 @@ namespace DesignPatterns.DecoratorPattern.Decorators
         public CheeseDecorator(IPizza pizza) : base(pizza)
         { }
 
-        public override string GetType()
+        public override string GetPizzaType()
         {
-            return $"{base.GetType()}\r\n with extra cheese";
+            return $"{base.GetPizzaType()}\r\n with extra cheese";
         }
     }
 }

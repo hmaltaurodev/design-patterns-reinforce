@@ -8,9 +8,9 @@ namespace DesignPatterns.DecoratorPattern.Decorators
         public OnionDecorator(IPizza pizza) : base(pizza)
         { }
 
-        public override string GetType()
+        public override string GetPizzaType()
         {
-            return $"{base.GetType()}\r\n with extra onion";
+            return $"{base.GetPizzaType()}\r\n with extra onion";
         }
     }
 }

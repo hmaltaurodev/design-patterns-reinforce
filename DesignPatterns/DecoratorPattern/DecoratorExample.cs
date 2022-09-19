@@ -15,7 +15,7 @@ namespace DesignPatterns.DecoratorPattern
             IPizza baconDecorator = new BaconDecorator(cheeseDecorator);
             IPizza onionDecorator = new OnionDecorator(baconDecorator);
 
-            Console.WriteLine(onionDecorator.GetType());
+            Console.WriteLine(onionDecorator.GetPizzaType());
         }
     }
 }

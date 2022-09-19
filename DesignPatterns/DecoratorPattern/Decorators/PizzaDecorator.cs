@@ -12,9 +12,9 @@ namespace DesignPatterns.DecoratorPattern.Decorators
             _pizza = pizza;
         }
 
-        public new virtual string GetType()
+        public virtual string GetPizzaType()
         {
-            return _pizza.GetType();
+            return _pizza.GetPizzaType();
         }
     }
 }
