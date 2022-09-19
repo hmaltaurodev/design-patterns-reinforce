@@ -1,0 +1,21 @@
+﻿using DesignPatterns.Structural.Decorator.Decorators;
+using DesignPatterns.Structural.Decorator.Interfaces;
+using DesignPatterns.Structural.Decorator.Models;
+
+namespace DesignPatterns.Structural.Decorator
+{
+    public class DecoratorExample
+    {
+        public static void Execute()
+        {
+            Console.WriteLine("# Decorator Example\r\n");
+
+            IPizza pizza = new Pizza();
+            IPizza cheeseDecorator = new CheeseDecorator(pizza);
+            IPizza baconDecorator = new BaconDecorator(cheeseDecorator);
+            IPizza onionDecorator = new OnionDecorator(baconDecorator);
+
+            Console.WriteLine(onionDecorator.GetPizzaType());
+        }
+    }
+}
