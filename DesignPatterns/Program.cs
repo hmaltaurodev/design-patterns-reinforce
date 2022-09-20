@@ -64,7 +64,7 @@ namespace DesignPatterns
             #endregion
 
             #region Structural Examples
-            //AdapterExample.Execute(); //TODO
+            //AdapterExample.Execute();
             //BridgeExample.Execute(); //TODO
             //CompositeExample.Execute(); //TODO
             //DecoratorExample.Execute();
@@ -74,7 +74,7 @@ namespace DesignPatterns
             #endregion
 
             Console.ResetColor();
-            Console.WriteLine("\r\nPress any key to end execution");
+            Console.WriteLine("\r\nPress any key to end execution . . .");
             Console.ReadKey();
         }
     }

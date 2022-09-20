@@ -29,7 +29,7 @@ Created with the intention of reinforcing the practice of design pattern and the
 
 ### Structural
 
-- [ ] Adapter  
+- [x] Adapter  
 - [ ] Bridge  
 - [ ] Composite  
 - [x] Decorator  
